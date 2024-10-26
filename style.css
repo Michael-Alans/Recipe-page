@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+    margin: 150px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+main {
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside img {
+    border-radius: 10px;
+}
+
+aside {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width:375px) {
+    aside img {
+     border-radius:0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    aside  {
+     padding:0;
+    }
+}
+
+#first-section {
+    padding: 0px 20px 20px 20px;
+}
+
+h1 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 700;
+}
+
+#first-section p, #forth-section p {
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+
+#first-section article {
+    padding: 15px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+
+#first-section article h4 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+#first-section article ul li {
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+
+#second-section h2, #third-section h2, #forth-section h2{
+    font-family: "Young serif", sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+#second-section ul li {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+
+#third-section ol li {
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+
+#third-section, #forth-section, #second-section {
+    padding: 20px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+
+}
+
+table {
+    border-spacing: 25px;
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+
+td, th {
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr > th:last-child {
+    font-weight: 700;
+    color: #000000;
+}
+
+tr > td:last-child {
+    font-weight: 700;
+    color: #000000;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
